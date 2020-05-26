@@ -5,9 +5,12 @@ body {
 }
 
 hr {
-
+  margin: 0;
 }
 
+.files hr {
+  border-color: grey;
+}
 #left-section {
   display: inline-block;
   width: 12%;
@@ -26,8 +29,8 @@ hr {
   right:0;
 }
 
-.file {
-
+.file:hover {
+  background-color: #f1f1f1;
 }
 
 .item{
