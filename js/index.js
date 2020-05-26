@@ -1,4 +1,4 @@
-function alert2(e) {
-  console.log(e);
-  alert();
+function hide(event) {
+  console.log(event);
+  event.class += "hide";
 }
