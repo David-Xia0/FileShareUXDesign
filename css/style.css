@@ -27,7 +27,7 @@ hr {
 }
 
 #right-section {
-  display: inline-block;
+  display: none;
   width:15%;
   right:0;
 }
@@ -59,9 +59,7 @@ hr {
   display: hidden;
 }
 
-#right-section{
-  display:none;
-}
+/**Calendar styling*/
 
 #open-calendar{
   float:right;
