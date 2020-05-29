@@ -58,3 +58,15 @@ hr {
 .hide {
   display: hidden;
 }
+
+#right-section{
+  display:none;
+}
+
+#open-calendar{
+  float:right;
+}
+
+#close-calendar{
+  float:right;
+}
