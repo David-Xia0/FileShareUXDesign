@@ -163,6 +163,7 @@ hr {
 /**Calendar styling*/
 
 #open-calendar{
+  margin-top: 3%;
   float:right;
 }
 
