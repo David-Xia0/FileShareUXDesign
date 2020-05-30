@@ -13,9 +13,7 @@ hr {
   margin: 0;
 }
 
-.files hr {
-  border-color: grey;
-}
+
 #left-section {
   display: inline-block;
   width: 12%;
@@ -25,20 +23,13 @@ hr {
   display: inline-block;
   margin-left: 12%;
   width: 73%;
+  height: 90%;
 }
 
 #right-section {
   display: none;
   width:15%;
   right:0;
-}
-
-.details {
-  margin-top: 1%;
-}
-
-.file:hover {
-  background-color: #f1f1f1;
 }
 
 .drive{
@@ -49,11 +40,6 @@ hr {
 
 .selected {
   background-color: white;
-}
-
-.files {
-  height: 60%;
-  margin-bottom: 5%;
 }
 
 .hide {
@@ -72,6 +58,91 @@ hr {
   display: inline-block;
   margin-left: 1%
 }
+
+/**Middle Files styling*/
+
+.details {
+  margin-top: 1%;
+}
+
+.detailsContainer{
+  height: 40%; 
+  bottom: 0;
+  background-color: rgb(218, 218, 218); 
+  box-shadow: 0px 0px 5px black;
+}
+
+.detailsHeader{
+  font-size: 50px;
+}
+
+.files hr {
+  border-color: grey;
+}
+
+.file{
+  border-radius: 10px;
+  display: flex; 
+  vertical-align: middle; 
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.file:hover {
+  background-color: #f1f1f1;
+}
+
+.fileContainer{
+  height: 60%; 
+  overflow-y: scroll;
+}
+
+.fileIcon{
+  width: 36px; 
+  height: 48px; 
+  align-self: center;
+}
+
+.files {
+  height: 60%;
+  margin-bottom: 5%;
+}
+
+.fileTitle{
+  padding-left: 10px;
+  width: 20%;
+}
+
+.fileSettings{
+  max-width: 36px; 
+  align-self: center; 
+  margin-left: 10%;
+}
+
+.fileProgress{
+  align-self: center;
+  align-self: center; 
+  border-radius: 5px; 
+  margin-left: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: #f1f1f1;
+  width: fit-content;
+}
+
+
+.users{
+  max-width: 36px; 
+  align-self: center; 
+}
+
+
+
+
+
+
 
 /**Calendar styling*/
 
