@@ -20,7 +20,7 @@ hr {
   width: 12%;
 }
 
-#middle-section {
+.middle-section {
   display: inline-block;
   margin-left: 12%;
   width: 73%;
@@ -56,5 +56,5 @@ hr {
 }
 
 .hide {
-  display: hidden;
+  display: none;
 }
