@@ -68,3 +68,17 @@ hr {
 #close-calendar{
   float:right;
 }
+
+#calendar-day{
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+}
+
+#calendar-day li{
+  overflow: wrap;
+  
+}
+
+#calendar-day li:hover {
+  background-color: gainsboro;
+}
