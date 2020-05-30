@@ -13,8 +13,11 @@ function hide(event) {
   }
 }
 
+
+
 function displayIndexDetails() {
   $(".detailsContainer").toggle();
+  $(".file").toggleClass("fileBorder");
 }
 
 function w3_open() {

@@ -94,6 +94,7 @@ hr {
   flex-direction: row;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+
 }
 
 .detailsHeader{
@@ -112,10 +113,22 @@ hr {
   margin-bottom: 5px;
   margin-left: 5px;
   margin-right: 5px;
+
 }
 
 .file:hover {
   background-color: #f1f1f1;
+}
+
+.fileBorder{
+  border-color: red;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 .fileContainer{
