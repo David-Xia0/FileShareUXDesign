@@ -27,7 +27,7 @@ hr {
 }
 
 #right-section {
-  display: inline-block;
+  display: none;
   width:15%;
   right:0;
 }
@@ -70,4 +70,34 @@ hr {
 .icon-text {
   display: inline-block;
   margin-left: 1%
+}
+
+/**Calendar styling*/
+
+#open-calendar{
+  float:right;
+}
+
+#close-calendar{
+  float:right;
+}
+
+#calendar{
+  overflow-y: scroll;
+  position: relative;
+  height: 78%;
+}
+
+#calendar-day{
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+}
+
+#calendar-day li{
+  overflow: wrap;
+  font-size: small;
+}
+
+#calendar-day li:hover {
+  background-color: gainsboro;
 }
