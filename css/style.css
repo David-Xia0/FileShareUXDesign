@@ -58,3 +58,16 @@ hr {
 .hide {
   display: none;
 }
+
+.top-bar {
+  padding-left: 3%;
+}
+.icon {
+  display: inline-block;
+  height: 3%;
+  width: 3%;
+}
+.icon-text {
+  display: inline-block;
+  margin-left: 1%
+}
