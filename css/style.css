@@ -69,6 +69,12 @@ hr {
   float:right;
 }
 
+#calendar{
+  overflow-y: scroll;
+  position: relative;
+  height: 80%;
+}
+
 #calendar-day{
   margin-bottom: 5%;
   padding-bottom: 5%;
