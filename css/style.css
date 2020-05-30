@@ -72,7 +72,7 @@ hr {
 #calendar{
   overflow-y: scroll;
   position: relative;
-  height: 80%;
+  height: 78%;
 }
 
 #calendar-day{
