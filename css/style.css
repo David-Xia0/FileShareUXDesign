@@ -74,18 +74,14 @@ hr {
 
 /**Calendar styling*/
 
-#open-calendar{
-  float:right;
-}
-
 #close-calendar{
   float:right;
 }
 
 #calendar{
-  overflow-y: scroll;
-  position: relative;
   height: 78%;
+  overflow-y: hidden;
+  position: relative;
 }
 
 #calendar-day{
@@ -94,10 +90,14 @@ hr {
 }
 
 #calendar-day li{
-  overflow: wrap;
   font-size: small;
+  overflow: wrap;
 }
 
 #calendar-day li:hover {
   background-color: gainsboro;
+}
+
+#open-calendar{
+  float:right;
 }
