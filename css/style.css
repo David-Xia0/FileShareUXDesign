@@ -76,7 +76,7 @@ hr {
 
 #calendar-day li{
   overflow: wrap;
-  
+  font-size: small;
 }
 
 #calendar-day li:hover {
