@@ -116,16 +116,6 @@ hr {
 
 }
 
-.file{
-  border-radius: 10px;
-  display: flex;
-  vertical-align: middle;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-
-}
 
 .file:hover {
   background-color: #f1f1f1;
@@ -140,6 +130,7 @@ hr {
   margin-bottom: 3px;
   margin-left: 3px;
   margin-right: 3px;
+  transition: all .1s;
 }
 
 .fileContainer{
