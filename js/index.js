@@ -13,6 +13,10 @@ function hide(event) {
   }
 }
 
+function displayIndexDetails() {
+  $(".detailsContainer").toggle();
+}
+
 function w3_open() {
   // document.getElementById("main").style.marginLeft = "25%";
   document.getElementById("right-section").style.width = "15%";

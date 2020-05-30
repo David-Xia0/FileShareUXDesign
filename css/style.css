@@ -14,7 +14,7 @@ hr {
 }
 .top-bar {
   background-color: white;
-  height: 6%;
+  height: 60px;
   padding-left: 3%;
   position: fixed;
 
@@ -32,7 +32,7 @@ hr {
 #left-section {
   display: inline-block;
   width: 12%;
-  margin-top: 3%;
+  margin-top: 60px;
 }
 .search-bar {
   display: inline-block;;
@@ -68,10 +68,10 @@ hr {
   display: none;
 }
 .no-drive {
-    margin-top: 3%;
+  margin-top: 60px;
 }
 .my-drive {
-    margin-top: 3%;
+  margin-top: 60px;
 }
 
 
@@ -82,6 +82,7 @@ hr {
 }
 
 .detailsContainer{
+  display: none;
   height: 40%;
   bottom: 0;
   background-color: rgb(218, 218, 218);
@@ -163,7 +164,7 @@ hr {
 /**Calendar styling*/
 
 #open-calendar{
-  margin-top: 3%;
+  margin-top: 60px;
   float:right;
 }
 
