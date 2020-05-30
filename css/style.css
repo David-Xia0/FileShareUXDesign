@@ -41,9 +41,7 @@ hr {
 }
 
 .drive{
-  border: 0 0 5px 0;
-  border-color: black;
-  border-width: 5px;
+  margin: 10px 10px 0 0;
 }
 
 .selected {
