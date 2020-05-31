@@ -11,7 +11,6 @@ function hide(event) {
       $(".no-drive").css("display", "inline-block");
 
   }
-  $(".related").toggleClass("fileBorder");
 }
 
 function displayIndexDetails() {
