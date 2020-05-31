@@ -13,6 +13,17 @@
 </head>
 
 <body>
+  <!-- Share Pop Up -->
+  <div class="pop-up">
+    <div class="pop-up-container">
+      <div class="close" onclick="togglePopup()">
+        <span class="close">&times;</span>
+      </div>
+      <div class="pop-up-content">
+        <p>Stuff here</p>
+      </div>
+    </div>
+  </div>
 
   <!-- Top Nav Bar -->
   <div class="w3-bar w3-border top-bar">
@@ -32,7 +43,9 @@
 
   <!-- Left Side bar -->
   <div id="left-section" class="w3-sidebar w3-blue w3-bar-block">
+    <p>
     <img class="left-bar-misc-icons" src="./icons/pencil-ruler-solid.svg">
+    </p>
     <h3 class="w3-bar-item">DRIVES</h3>
     <a href="#" class="w3-bar-item w3-button drive" onclick="hide(this)">My Drive</a>
     <br>
@@ -106,6 +119,7 @@
           <p class="fileTitle">Assignment Brief</p>
         </div>
         <hr>
+          <button class="pop-up-button" onclick="togglePopup()">Share</button>
         <!-- <div class="file">
           <p class="fileTitle">Assignment Brief</p>
         </div>

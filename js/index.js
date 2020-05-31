@@ -13,6 +13,10 @@ function hide(event) {
   }
 }
 
+function togglePopup() {
+  $(".pop-up").toggle();
+}
+
 function displayIndexDetails() {
   $(".detailsContainer").toggle();
   $(".related").toggleClass("fileBorder");
@@ -25,6 +29,6 @@ $(".homework").click(function() {
   var id = $(this).attr('id');
 
   if (id == "softeng-111"){
-    
+
   }
 });
