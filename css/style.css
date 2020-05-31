@@ -203,6 +203,7 @@ hr {
   width: 20%;
 }
 
+
 .fileSettings{
   max-width: 36px;
   align-self: center;
@@ -220,11 +221,54 @@ hr {
   width: fit-content;
 }
 
+.relatedFile{ 
+  background-color: rgb(38, 0, 255); 
+  border-radius: 100%;
+  width: 10px; 
+  height: 10px;
+  align-self: center;
+  display: none;
+}
+
 
 .users{
   max-width: 36px;
   align-self: center;
 }
+
+/** Tool tip **/
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  align-content: center;
+}
+
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: fit-content;
+  background-color: rgb(37, 157, 204);
+  color: #fff;
+  text-align: center;
+  padding: 5px 3px;
+  border-radius: 6px;
+  align-content: center;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  width:  80px;
+  top: 100%;
+  left: 50%;
+  margin-left: -40px; 
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
 
 /**Details pane styling*/
 

@@ -19,6 +19,7 @@ function togglePopup() {
 
 function displayIndexDetails() {
   $(".detailsContainer").toggle();
+  $(".relatedFile").toggle();
   $(".related").toggleClass("fileBorder");
 }
 
