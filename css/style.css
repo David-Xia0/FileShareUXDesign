@@ -51,9 +51,10 @@ hr {
 }
 
 #right-section {
-  display: none;
+  display: inline-block;
   width:15%;
   right:0;
+  margin-top: 60px;
 }
 
 .drive{
@@ -184,16 +185,6 @@ hr {
 
 
 /**Calendar styling*/
-
-#open-calendar{
-  margin-top: 60px;
-  float:right;
-}
-
-#close-calendar{
-  float:right;
-}
-
 #calendar{
   height: 78%;
   overflow-y: hidden;
