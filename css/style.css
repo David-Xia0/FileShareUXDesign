@@ -207,6 +207,10 @@ hr {
   cursor: pointer;
 }
 
+.calendar-day li:hover:active{
+  background-color: #B0BAC1;
+}
+
 .date-badge{
   border: 1px solid;
   border-color: #fff;
@@ -219,6 +223,10 @@ hr {
   position: absolute;
   right:20px;
   text-align:center;
+}
+
+.homework-clicked{
+  background-color: #ADBECA;
 }
 
 #calendar{
