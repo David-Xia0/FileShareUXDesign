@@ -51,7 +51,7 @@ hr {
 }
 
 #right-section {
-  background-color:#F7FFFF;
+  background-color:#F3F3F3;
   display: inline-block;
   height:100%;
   margin-top: 60px;
@@ -189,24 +189,11 @@ hr {
 
 
 /**Calendar styling*/
-#calendar{
-  height: 78%;
-  overflow-y: hidden;
-  position: relative;
-}
-
-#calendar-day{
+.calendar-day{
+  border: 1px solid;
+  border-radius: 5px;
   margin-bottom: 5%;
   padding-bottom: 5%;
-}
-
-#calendar-day li{
-  font-size: small;
-  overflow: wrap;
-}
-
-#calendar-day li:hover {
-  background-color: gainsboro;
 }
 
 .date-badge{
@@ -221,6 +208,21 @@ hr {
   position: absolute;
   right:20px;
   text-align:center;
+}
+
+#calendar{
+  height: 78%;
+  overflow-y: hidden;
+  position: relative;
+}
+
+#calendar-day li{
+  font-size: small;
+  overflow: wrap;
+}
+
+#calendar-day li:hover {
+  background-color: gainsboro;
 }
 
 #today{
