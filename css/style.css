@@ -40,7 +40,9 @@ hr {
 
 .setting-icon {
   float: right;
-  margin: 10px 10px;
+  max-width: 36px;
+  align-self: center;
+  margin: 10px 10px 10px 10px;
 }
 
 #left-section {
@@ -94,6 +96,14 @@ hr {
 .my-drive {
   margin-top: 50px;
   padding: 10px 10px 10px 10px;
+}
+.left-bar-misc-icons {
+  margin: 25px auto;
+  max-width: 36px;
+  display: block;
+}
+.misc-icons {
+  margin-top: 300px;
 }
 
 
