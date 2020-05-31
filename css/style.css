@@ -15,7 +15,7 @@ hr {
 .top-bar {
   background-color: white;
   height: 60px;
-  padding-left: 3%;
+  padding-left: 1%;
   position: fixed;
 
 }
@@ -36,7 +36,7 @@ hr {
 }
 .search-bar {
   display: inline-block;;
-  margin-left: 1%;
+  margin-left: 2%;
 }
 .search-icon {
   width: 10px;
