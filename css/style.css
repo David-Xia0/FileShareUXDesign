@@ -51,10 +51,14 @@ hr {
 }
 
 #right-section {
+  background-color:#F7FFFF;
   display: inline-block;
-  width:15%;
-  right:0;
+  height:100%;
   margin-top: 60px;
+  position:fixed;
+  right:0;
+  width:15%;
+  z-index:1;
 }
 
 .drive{
