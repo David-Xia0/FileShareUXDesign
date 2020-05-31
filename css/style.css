@@ -83,26 +83,6 @@ hr {
 
 /**Middle Files styling*/
 
-.details {
-  margin-top: 1%;
-  margin-left: 2%;
-}
-
-.detailsContainer{
-  display: none;
-  height: 40%;
-  bottom: 0;
-  background-color: rgb(218, 218, 218);
-  /**box-shadow: 0px 0px 5px black;*/
-  position: fixed;
-  width: 73%;
-  display: flex;
-  flex-direction: row;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-
-}
-
 .detailsHeader{
   font-size: 50px;
 }
@@ -183,10 +163,23 @@ hr {
   align-self: center;
 }
 
+/**Details pane styling*/
 
+.details {
+  margin-top: 1%;
+  margin-left: 2%;
+}
 
-
-
+.detailsContainer{
+  background-color: gainsboro;
+  bottom: 2%;
+  display: none;
+  flex-direction: row;
+  height: 40%;
+  left: 13%;
+  position: fixed;
+  width: 71%;
+}
 
 
 /**Calendar styling*/
