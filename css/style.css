@@ -196,6 +196,15 @@ hr {
   padding-bottom: 5%;
 }
 
+.calendar-day li{
+  font-size: small;
+  overflow: wrap;
+}
+
+.calendar-day li:hover {
+  background-color: gainsboro;
+}
+
 .date-badge{
   border: 1px solid;
   border-color: #fff;
@@ -214,15 +223,6 @@ hr {
   height: 78%;
   overflow-y: hidden;
   position: relative;
-}
-
-#calendar-day li{
-  font-size: small;
-  overflow: wrap;
-}
-
-#calendar-day li:hover {
-  background-color: gainsboro;
 }
 
 #today{
