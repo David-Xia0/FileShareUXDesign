@@ -45,7 +45,7 @@
   <!-- Left Side bar -->
   <div id="left-section" class="w3-sidebar w3-blue w3-bar-block">
     <p>
-    <img class="left-bar-misc-icons" src="./icons/pencil-ruler-solid.svg">
+      <img class="left-bar-misc-icons" src="./icons/pencil-ruler-solid.svg">
     </p>
     <h3 class="w3-bar-item">DRIVES</h3>
     <a href="#" class="w3-bar-item w3-button drive" onclick="hide(this)">My Drive</a>
@@ -99,7 +99,7 @@
           <img class="users" src="user4.png">
           <img class="users" src="user3.png">
 
-      </div>
+        </div>
         <hr>
 
 
@@ -114,13 +114,12 @@
           <img class="users" src="user1.png" style="margin-left: 20px;">
           <img class="users" src="user4.png">
 
-      </div>
+        </div>
         <hr>
         <div class="file">
           <p class="fileTitle">Assignment Brief</p>
         </div>
         <hr>
-          <button class="pop-up-button" onclick="togglePopup()">Share</button>
         <!-- <div class="file">
           <p class="fileTitle">Assignment Brief</p>
         </div>
@@ -140,10 +139,41 @@
 
   <!--Start of Details section-->
   <div class="detailsContainer">
-    <!-- <div class="details">
-      <img src="htmlpreview.png">
-    </div> -->
+
+
+
+    <div class="details">
+      <div style="width: 100%; height: 100px; align-content: center; vertical-align: middle; display: flex;">
+        <img src="htmlFileIcon.png" style="height: 80px; width: 60px; align-self: center;">
+        <p class="detailsHeader">index.html</p>
+        <div style="width: 5%"></div>
+        <p class="fileProgress" style="background-color: rgb(43, 192, 75);">COMPLETED</p>
+        <p class="fileProgress" style="background-color: rgb(241, 12, 12);">DO NOT TOUCH</p>
+      </div>
+      <div style="width: 100%; margin-top: 3%; align-content: center; vertical-align: middle; display: flex;">
+        <img src="htmlPreview.png"
+          style="height: fit-content; width: fit-content; margin-left: 12%; align-self: center;">
+        <div style="margin-left: 15%;">
+          <p>Date Created: 1/06/2020</p>
+          <p>Last Modified: 1/06/2020</p>
+          <p>Line Count: 642</p>
+          <p>Related Files: style.css, index.js</p>
+          <div style="display: flex;">
+            <p>Shared Users: </p>
+            <img class="users" src="user4.png" style="margin-left: 20px;">
+            <img class="users" src="user3.png">
+          </div>
+        </div>
+
+        
+      <button class="pop-up-button detailsHeader" style="margin-left: 10%; height: fit-content; background-color: rgb(199, 199, 199); align-self: center;" onclick="togglePopup()">Share</button>
+      </div>
+
+    </div>
   </div>
+
+
+
   <!--End of Details section-->
 
   <!-- Right sidebar -->

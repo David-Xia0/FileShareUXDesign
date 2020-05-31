@@ -148,9 +148,7 @@ hr {
 
 /**Middle Files styling*/
 
-.detailsHeader{
-  font-size: 50px;
-}
+
 
 .files hr {
   border-color: grey;
@@ -233,6 +231,12 @@ hr {
 .details {
   margin-top: 1%;
   margin-left: 2%;
+}
+
+.detailsHeader{
+  font-size: 50px;
+  margin-left: 3%;
+  margin-top: 1%;
 }
 
 .detailsContainer{
