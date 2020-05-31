@@ -1,19 +1,26 @@
 html,body {
   font-family: 'Roboto', sans-serif;
+  font-weight: 50;
   margin: 0;
   padding: 0;
   height: 100%;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3 {
  font-family: 'Roboto', sans-serif;
+ font-weight: 300;
+}
+
+h4,h5,h6 {
+ font-family: 'Roboto', sans-serif;
+ font-weight: 500;
 }
 
 hr {
   margin: 0;
 }
 .top-bar {
-  background-color: white;
+  background-color: #F3F3F3;
   height: 60px;
   padding-left: 1%;
   position: fixed;
@@ -66,7 +73,9 @@ hr {
 }
 
 .selected {
-  background-color: white;
+  background-color: gainsboro;
+  color: black;
+  font-weight: 500;
 }
 
 .hide {
