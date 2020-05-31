@@ -11,6 +11,14 @@ function hide(event) {
       $(".no-drive").css("display", "inline-block");
 
   }
+  $(".related").toggleClass("fileBorder");
+}
+
+
+
+function displayIndexDetails() {
+  $(".detailsContainer").toggle();
+  $(".related").toggleClass("fileBorder");
 }
 
 function w3_open() {
