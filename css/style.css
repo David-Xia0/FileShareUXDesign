@@ -203,6 +203,8 @@ hr {
 
 .calendar-day li:hover {
   background-color: gainsboro;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .date-badge{
