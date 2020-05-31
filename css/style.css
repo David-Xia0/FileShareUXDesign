@@ -19,6 +19,8 @@ h4,h5,h6 {
 hr {
   margin: 0;
 }
+
+
 .top-bar {
   background-color: #F9FAFA;
   height: 60px;
@@ -34,6 +36,11 @@ hr {
 .icon-text {
   display: inline-block;
   margin-left: 1%
+}
+
+.setting-icon {
+  float: right;
+  margin: 10px 10px;
 }
 
 #left-section {
