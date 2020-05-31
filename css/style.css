@@ -231,8 +231,14 @@ hr {
 
 #calendar{
   height: 78%;
-  overflow-y: hidden;
+  overflow: wrap;
   position: relative;
+}
+
+#change-week{
+  display: inline-block;
+  position: absolute;
+  right: 10px;
 }
 
 #today{
