@@ -24,8 +24,13 @@ function displayIndexDetails() {
 }
 
 $(".task").click(function() {
-  $(".task").removeClass("task-clicked")
-  $(this).toggleClass("task-clicked");
+  var hasClass = $(this).hasClass("task-clicked");
+
+  $(".task").removeClass("task-clicked");
+
+  if (!hasClass){
+    $(this).toggleClass("task-clicked");
+  }
 
   var id = $(this).attr('id');
 

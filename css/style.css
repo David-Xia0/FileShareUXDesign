@@ -332,16 +332,6 @@ hr {
   overflow: wrap;
 }
 
-.calendar-day li:hover {
-  background-color: gainsboro;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.calendar-day li:hover:active{
-  background-color: #B0BAC1;
-}
-
 .date-badge{
   color:#fff;
   display:inline-block;
@@ -357,8 +347,28 @@ hr {
   font-size: small;
 }
 
+.task:hover {
+  background-color: gainsboro;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task:hover:active{
+  background-color: #B0BAC1;
+}
+
 .task-clicked{
-  background-color: #ADBECA;
+  background-color: #DDDDAC;
+}
+
+.task-clicked:hover{
+  background-color: #BFBF8E;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task:hover:active{
+  background-color: #A8A876;
 }
 
 .weekday{
