@@ -1,3 +1,8 @@
+@keyframes fading{
+  0%{opacity:0}
+  100%{opacity:1}
+}
+
 html,body {
   font-family: 'Roboto', sans-serif;
   font-weight: 50;
@@ -173,6 +178,8 @@ hr {
 
 .calendar-related-file{
   background-color: #FFD7AE;
+  border-radius: 10px;
+  animation: fading .1s;
 }
 
 .files hr {
@@ -314,12 +321,6 @@ hr {
   width: 71%;
   animation: fading .1s;
 }
-
-@keyframes fading{
-  0%{opacity:0}
-  100%{opacity:1}
-}
-
 
 /**Calendar styling*/
 .calendar-day{
