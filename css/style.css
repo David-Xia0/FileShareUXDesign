@@ -325,7 +325,10 @@ hr {
 }
 
 .share-btn {
-  margin-left: 10%; height: fit-content; align-self: center;
+  border-radius: 10%;
+  margin-left: 10%;
+  height: fit-content;
+  align-self: center;
 }
 
 /**Calendar styling*/
