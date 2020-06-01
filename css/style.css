@@ -304,7 +304,7 @@ hr {
   left: 13%;
   position: fixed;
   width: 71%;
-  animation: fading .5s;
+  animation: fading .1s;
 }
 
 @keyframes fading{
