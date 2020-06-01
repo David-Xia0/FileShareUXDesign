@@ -329,7 +329,6 @@ hr {
 }
 
 .calendar-day li{
-  font-size: small;
   overflow: wrap;
 }
 
@@ -344,9 +343,6 @@ hr {
 }
 
 .date-badge{
-  border: 1px solid;
-  border-color: #fff;
-  border-radius: 50%;
   color:#fff;
   display:inline-block;
   overflow: wrap;
@@ -357,8 +353,18 @@ hr {
   text-align:center;
 }
 
-.homework-clicked{
+.task{
+  font-size: small;
+}
+
+.task-clicked{
   background-color: #ADBECA;
+}
+
+.weekday{
+  background-color: #2196F3;
+  color: #fff;
+  font-size: 18px;
 }
 
 #calendar{
@@ -375,4 +381,5 @@ hr {
 
 #today{
   background-color: #0D5E9D;
+  color: #fff;
 }

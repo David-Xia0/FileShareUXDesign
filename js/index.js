@@ -23,9 +23,9 @@ function displayIndexDetails() {
   $(".related").toggleClass("fileBorder");
 }
 
-$(".homework").click(function() {
-  $(".homework").removeClass("homework-clicked")
-  $(this).toggleClass("homework-clicked");
+$(".task").click(function() {
+  $(".task").removeClass("task-clicked")
+  $(this).toggleClass("task-clicked");
 
   var id = $(this).attr('id');
 
