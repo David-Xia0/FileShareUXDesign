@@ -1,15 +1,18 @@
 function hide(event) {
   var driveIsHighlighted = $(event).hasClass("selected");
-  console.log(driveIsHighlighted);
 
   $(".drive").removeClass("selected");
-  event.classList += " selected";
+
+  if (driveIsHighlighted){
+    $(event).removeClass("selected");
+  } else {
+    $(event).toggleClass("selected");
+  }
   $(".middle-section").css("display", "none");
   switch (event.text) {
     case "My Drive":
         if (driveIsHighlighted){
           $(".no-drive").css("display", "inline-block");
-          $(event).removeClass("selected");
         } else {
           $(".my-drive").css("display", "inline-block");
         }
