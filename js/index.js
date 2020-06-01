@@ -20,7 +20,6 @@ function togglePopup() {
 function displayIndexDetails() {
   $(".detailsContainer").toggle();
   $(".relatedFile").toggle();
-  $(".related").toggleClass("fileBorder");
 }
 
 $(".task").click(function() {
@@ -34,7 +33,7 @@ $(".task").click(function() {
 
   var id = $(this).attr('id');
 
-  if (id == "softeng-111"){
-
+  if (id === "softeng-111"){
+    $("#index.html").toggleClass("calendar-related-file");
   }
 });

@@ -171,7 +171,9 @@ hr {
 
 /**Middle Files styling*/
 
-
+.calendar-related-file{
+  background-color: #DDDDAC;
+}
 
 .files hr {
   border-color: grey;
@@ -185,24 +187,11 @@ hr {
   margin-bottom: 5px;
   margin-left: 5px;
   margin-right: 5px;
-
 }
 
 
 .file:hover {
   background-color: #f1f1f1;
-}
-
-.fileBorder{
-  border-color: red;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 10px;
-  margin-top: 3px;
-  margin-bottom: 3px;
-  margin-left: 3px;
-  margin-right: 3px;
-  transition: all .1s;
 }
 
 .fileContainer{
@@ -342,7 +331,6 @@ hr {
 
 .task:hover {
   background-color: gainsboro;
-  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -356,7 +344,6 @@ hr {
 
 .task-clicked:hover{
   background-color: #BFBF8E;
-  border-radius: 5px;
   cursor: pointer;
 }
 
