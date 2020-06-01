@@ -246,6 +246,7 @@ hr {
 
 .file-clicked{
   background-color: #f1f1f1;
+  font-weight: 300;
 }
 
 .relatedFile{ 
@@ -349,6 +350,7 @@ hr {
 
 .task-clicked{
   background-color: #FFD7AE;
+  font-weight: 300;
 }
 
 .task-clicked:hover{
