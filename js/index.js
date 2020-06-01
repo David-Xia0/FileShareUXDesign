@@ -1,5 +1,4 @@
 function hide(event) {
-  console.log(event);
   $(".drive").removeClass("selected");
   event.classList += " selected";
   $(".middle-section").css("display", "none");
@@ -22,6 +21,14 @@ function displayIndexDetails() {
   $(".relatedFile").toggle();
 }
 
+$(".file").click(function() {
+  var fileIsHighlighted = $(this).hasClass("file-clicked");
+  $(".file").removeClass("file-clicked");
+  if (!fileIsHighlighted){
+    $(this).toggleClass("file-clicked");
+  }
+});
+
 /**Click handler for the tasks on the calendar.*/
 $(".task").click(function() {
   var id = "";
@@ -34,7 +41,7 @@ $(".task").click(function() {
   }
 
   //Highlight appropriate related files in your drive.
-  $(".file").removeClass("calendar-related-file");
+  $(".fileTitle").removeClass("calendar-related-file");
   if (id === "softeng-111"){
     $("#index-html").toggleClass("calendar-related-file");
 

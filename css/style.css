@@ -172,7 +172,7 @@ hr {
 /**Middle Files styling*/
 
 .calendar-related-file{
-  background-color: #FBF5D3;
+  background-color: #FFD7AE;
 }
 
 .files hr {
@@ -192,6 +192,10 @@ hr {
 
 .file:hover {
   background-color: #f1f1f1;
+}
+
+.file:hover:active {
+  background-color: #E7E2E2;
 }
 
 .fileContainer{
@@ -231,6 +235,10 @@ hr {
   padding-right: 3px;
   color: #f1f1f1;
   width: fit-content;
+}
+
+.file-clicked{
+  background-color: #f1f1f1;
 }
 
 .relatedFile{ 
@@ -339,16 +347,16 @@ hr {
 }
 
 .task-clicked{
-  background-color: #FBEEA3;
+  background-color: #FFD7AE;
 }
 
 .task-clicked:hover{
-  background-color: #BFBF8E;
+  background-color: #E5B17B;
   cursor: pointer;
 }
 
 .task:hover:active{
-  background-color: #A8A876;
+  background-color: #AF875F;
 }
 
 .weekday{
