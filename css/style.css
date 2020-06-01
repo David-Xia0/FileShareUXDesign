@@ -172,7 +172,7 @@ hr {
 /**Middle Files styling*/
 
 .calendar-related-file{
-  background-color: #DDDDAC;
+  background-color: #FBF5D3;
 }
 
 .files hr {
@@ -339,7 +339,7 @@ hr {
 }
 
 .task-clicked{
-  background-color: #DDDDAC;
+  background-color: #FBEEA3;
 }
 
 .task-clicked:hover{
