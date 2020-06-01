@@ -336,17 +336,6 @@ hr {
   overflow: wrap;
 }
 
-.date-badge{
-  color:#fff;
-  display:inline-block;
-  overflow: wrap;
-  padding-left:8px;
-  padding-right:8px;
-  position: absolute;
-  right:20px;
-  text-align:center;
-}
-
 .task{
   font-size: small;
 }
@@ -378,7 +367,10 @@ hr {
 .weekday{
   background-color: #2196F3;
   color: #fff;
+  display: flex;
+  flex-wrap: wrap;
   font-size: 18px;
+  justify-content: space-between;
 }
 
 #calendar{
