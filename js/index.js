@@ -8,7 +8,7 @@ function hide(event) {
   } else {
     $(event).toggleClass("selected");
   }
-  
+
   $(".middle-section").css("display", "none");
   switch (event.text) {
     case "My Drive":
@@ -34,6 +34,11 @@ function resetToDefaultMiddleSection(){
 function successPopup() {
   $(".pop-up-container").toggle();
   $(".success-container").toggle();
+}
+
+function successClose() {
+  successPopup();
+  togglePopup();
 }
 
 function togglePopup() {
