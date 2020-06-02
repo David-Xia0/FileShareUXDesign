@@ -271,12 +271,14 @@ hr {
   position: relative;
   display: inline-block;
   align-content: center;
+  align-self: center;
 }
 
 
 .tooltip .tooltiptext {
   visibility: hidden;
   width: fit-content;
+  height: fit-content;
   background-color: rgb(37, 157, 204);
   color: #fff;
   text-align: center;
