@@ -15,14 +15,15 @@
 <body>
   <!-- Share Pop Up -->
   <div class="pop-up">
-    <div class="success-container w3-pale-green">
+    <div class="success-container">
+      <h1 class="success-text">SUCCESS!</h1>
       <img class="tick-circle" src="./icons/check-circle-regular.svg" alt="">
-      <h3>Success!</h3>
-      <button class="w3-btn w3-blue" onclick="successClose()">Close</button>
+      <br>
+      <button class="w3-btn w3-blue round-btn" onclick="successClose()">Close</button>
     </div>
     <div class="pop-up-container">
       <div class="pop-top-bar w3-container w3-blue">
-        <h1>Share "index.html"</h1>
+        <h1>Share "index.html" <img class="xsmall-icon setting-icon" src="./icons/cross.svg" alt="exit" onclick="togglePopup()"></h1>
       </div>
       <!-- <div class="close" onclick="togglePopup()">
         <span class="close">&times;</span>
@@ -51,8 +52,7 @@
           <input class="w3-input" type="text" placeholder="Enter a date: dd/mm/yyyy"></p>
       </div>
       <div class="pop-bottom w3-container">
-        <button class="w3-btn w3-blue" onclick="togglePopup()">Close</button>
-        <button class="w3-btn w3-blue" onclick="successPopup()">Done</button>
+        <button class="w3-btn w3-blue round-btn" onclick="successPopup()">Share</button>
       </div>
     </div>
   </div>
@@ -245,7 +245,7 @@
         </div>
 
 
-        <button class="pop-up-button w3-btn w3-blue detailsHeader share-btn"
+        <button class="pop-up-button w3-btn w3-blue detailsHeader share-btn round-btn"
           onclick="togglePopup()">Share</button>
       </div>
 
