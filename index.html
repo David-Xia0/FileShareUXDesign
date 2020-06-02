@@ -23,36 +23,53 @@
     </div>
     <div class="pop-up-container">
       <div class="pop-top-bar w3-container w3-blue">
-        <h1>Share "index.html" <img class="xsmall-icon setting-icon" src="./icons/cross.svg" alt="exit" onclick="togglePopup()"></h1>
+        <h1>Share: <b>index.html</b> <img class="xsmall-icon setting-icon" src="./icons/cross.svg" alt="exit" onclick="togglePopup()"></h1>
       </div>
-      <!-- <div class="close" onclick="togglePopup()">
-        <span class="close">&times;</span>
-      </div> -->
       <div class="pop-up-content w3-container">
         <p>
-          <label>Share to:</label>
-          <input list="share-options" class="w3-input" type="text" placeholder="Enter a User or a Team Drive"></p>
-          <datalist id="share-options">
-            <option value="David">
-            <option value="Jennifer">
-            <option value="Tianren">
-            <option value="303 Project 2">
-            <option value="Group HWK 4">
-            <option value="HCI Assignment 3">
-          </datalist>
-          <label>Tags</label>
-          <input list="tag-options" class="w3-input" type="text" placeholder="Enter Tags"></p>
-          <datalist id="tag-options">
-            <option value="COMPLETED">
-            <option value="DO NOT TOUCH">
-            <option value="IN PROGRESS">
-            <option value="URGENT">
-          </datalist>
-          <label>Due Date</label>
-          <input class="w3-input" type="text" placeholder="Enter a date: dd/mm/yyyy"></p>
-      </div>
-      <div class="pop-bottom w3-container">
-        <button class="w3-btn w3-blue round-btn" onclick="successPopup()">Share</button>
+          <p>
+            <label>Share to*</label>
+            <input list="share-options" class="w3-input" type="text" placeholder="Enter a User or a Team Drive">
+            <datalist id="share-options" class="options">
+              <option value="David">
+              <option value="Jennifer">
+              <option value="Tianren">
+              <option value="303 Project 2">
+              <option value="Group HWK 4">
+              <option value="HCI Assignment 3">
+            </datalist>
+            <div class="right-align">
+              <input class="w3-check" type="checkbox" checked="checked">
+              <label>Share related files?</label>
+            </div>
+          </p>
+          <br>
+          <p>
+            <label>Tags</label>
+            <input list="tag-options" class="w3-input" type="text" placeholder="Enter Tags">
+            <datalist id="tag-options">
+              <option value="COMPLETED">
+              <option value="DO NOT TOUCH">
+              <option value="IN PROGRESS">
+              <option value="URGENT">
+            </datalist>
+          </p>
+          <p class="double-input">
+            <label>Due Date</label>
+            <input class="w3-input" type="text" placeholder="dd/mm/yyyy">
+          </p>
+          <p>
+            <label>Task</label>
+            <input list="task-options" class="w3-input" type="text" placeholder="Calendar Task">
+            <datalist id="task-options">
+              <option value="SOFTENG 250">
+              <option value="SOFTENG 111">
+            </datalist>
+          </p>
+        </p>
+        <div class="right-align w3-container">
+          <button class="w3-btn w3-blue round-btn" onclick="successPopup()">Share</button>
+        </div>
       </div>
     </div>
   </div>
