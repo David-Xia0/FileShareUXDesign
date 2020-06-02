@@ -43,6 +43,18 @@ hr {
   height: 50%;
 }
 
+.success-container {
+  display: none;
+  background-color: #F9FAFA;
+  margin: 5% 20%;
+  width: 50%;
+  height: 50%;
+}
+
+.tick-circle {
+  width: 50%;
+  height: 50%;
+}
 .pop-top-bar {
   height: 17%;
 }

@@ -23,6 +23,11 @@ function hide(event) {
   }
 }
 
+function successPopup() {
+  $(".pop-up-container").toggle();
+  $(".success-container").toggle();
+}
+
 function togglePopup() {
   $(".pop-up").toggle();
 }
