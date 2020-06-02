@@ -69,52 +69,64 @@
 
     <div class="fileContiner">
       <div class="files">
+<<<<<<< HEAD
         <div id="index-html" class="file" onclick="displayDetails(this)">
           <img class="fileIcon" src="htmlFileIcon.png">
           <p class="fileTitle">index.html</p>
+=======
+        <div class="file" onclick="displayIndexDetails()">
+          <img class="fileIcon" src="icons/file/htmlFileIcon.png">
+          <p id="index-html" class="fileTitle">index.html</p>
+>>>>>>> master
           <div style="width: 350px;"></div>
           <div style="width: 250px">
             <p class="fileProgress" style="background-color: rgb(43, 192, 75);">COMPLETED</p>
           </div>
 
+
           <div class="tooltip"> 
-          <img class="users" src="user4.png" style="margin-left: 20px;">
-          <span class="tooltiptext">hellow</span>
+          <img class="users" src="icons/user/user4.png" style="margin-left: 20px;">
+          <span class="tooltiptext">Tianren</span>
           </div>
           <div class="tooltip"> 
-          <img class="users" src="user3.png">
-          <span class="tooltiptext">hellow</span>
+          <img class="users" src="icons/user/user3.png">
+
+          <span class="tooltiptext">Bob</span>
           </div>
 
-          <div class="tooltip" style="margin-left: 257px; align-self: center; margin-right: 20px;"> 
+          <div class="tooltip" style="margin-left: 257px; align-self: center; margin-right: 20px;">
+            <div class="relatedFile" style="background-color: white;"></div>
             </div>
 
         </div>
         <hr>
 
         <div id="style-css" class="file related" onclick="displayDetails(this)">
-          <img class="fileIcon" src="cssFileIcon.png">
+          <img class="fileIcon" src="icons/file/cssFileIcon.png">
           <p class="fileTitle">style.css</p>
           <div style="width: 350px;"></div>
           <div style="width: 250px;">
             <p class="fileProgress" style="background-color: rgb(70, 40, 201);">IN PROGRESS</p>
           </div>
+
           <div class="tooltip"> 
-          <img class="users " src="user1.png" style="margin-left: 20px;">
-          <span class="tooltiptext">hellow</span>
+          <img class="users " src="icons/user/user1.png" style="margin-left: 20px;">
+          <span class="tooltiptext">David</span>
           </div>
 
           <div class="tooltip"> 
-          <img class="users" src="user4.png">
-          <span class="tooltiptext">hellow</span>
+          <img class="users" src="icons/user/user4.png">
+          <span class="tooltiptext">Tianren</span>
         </div>
           <div class="tooltip"> 
-          <img class="users" src="user3.png">
-          <span class="tooltiptext">hellow</span>
+          <img class="users" src="icons/user/user3.png">
+
+
+          <span class="tooltiptext">Bob</span>
         </div>
-        <div class="tooltip" style="margin-left: 220px; align-self: center; margin-right: 20px;"> 
+        <div class="tooltip" style="margin-left: 220px; align-self: center; margin-right: 20px;">
           <div class="relatedFile" >
-            <span class="tooltiptext">reated to index.html</span>
+            <span class="tooltiptext">Related index.html</span>
           </div>
           </div>
         </div>
@@ -122,7 +134,7 @@
 
 
         <div id="index-js" class="file related" onclick="displayDetails(this)">
-          <img class="fileIcon" src="cssFileIcon.png">
+          <img class="fileIcon" src="icons/file/cssFileIcon.png">
           <p class="fileTitle">index.js</p>
           <div style="width: 350px;"></div>
           <div style="width: 250px;">
@@ -131,24 +143,41 @@
 
 
           <div class="tooltip"> 
-          <img class="users" src="user1.png" style="margin-left: 20px;">
-          <span class="tooltiptext">hellow</span>
+          <img class="users" src="icons/user/user1.png" style="margin-left: 20px;">
+          <span class="tooltiptext">David</span>
           </div>
           <div class="tooltip"> 
-          <img class="users" src="user4.png">
-          <span class="tooltiptext">hellow</span>
+          <img class="users" src="icons/user/user4.png">
+          <span class="tooltiptext">Tianren</span>
           </div>
-          <div class="tooltip" style="margin-left: 257px; align-self: center; margin-right: 20px;"> 
-          <div class="relatedFile" >
-            <span class="tooltiptext">reated to index.html</span>
+          <div class="tooltip" style="margin-left: 257px; align-self: center; margin-right: 20px;">
+          <div class="relatedFile">
+            <span class="tooltiptext">Related index.html</span>
           </div>
           </div>
 
 
         </div>
         <hr>
-        <div class="file">
-          <p id="assignment-brief" class="fileTitle">Assignment Brief</p>
+        <div id="assignment-brief" class="file">
+          <img class="fileIcon" src="icons/file/pdfFileIcon.png">
+          <p class="fileTitle">Brief</p>
+          <div style="width: 350px;"></div>
+          <div style="width: 250px;">
+            <p class="fileProgress" style="background-color: rgb(70, 40, 201);">IN PROGRESS</p>
+          </div>
+          <div class="tooltip"> 
+          <img class="users" src="icons/user/user1.png" style="margin-left: 20px;">
+          <span class="tooltiptext">David</span>
+          </div>
+          <div class="tooltip"> 
+          <img class="users" src="icons/user/user4.png">
+          <span class="tooltiptext">Tianren</span>
+          </div>
+          <div class="tooltip" style="margin-left: 257px; align-self: center; margin-right: 20px;">
+            <div class="relatedFile" style="background-color: white;">
+            </div>
+          </div>
         </div>
         <hr>
       </div>
@@ -168,14 +197,14 @@
 
     <div class="details">
       <div style="width: 100%; height: 100px; align-content: center; vertical-align: middle; display: flex;">
-        <img src="htmlFileIcon.png" style="height: 80px; width: 60px; align-self: center;">
+        <img src="icons/file/htmlFileIcon.png" style="height: 80px; width: 60px; align-self: center;">
         <p class="detailsHeader">index.html</p>
         <div style="width: 5%"></div>
         <p class="fileProgress" style="background-color: rgb(43, 192, 75);">COMPLETED</p>
         <p class="fileProgress" style="background-color: rgb(241, 12, 12);">DO NOT TOUCH</p>
       </div>
-      <div style="width: 100%; margin-top: 3%; align-content: center; vertical-align: middle; display: flex;">
-        <img src="htmlPreview.png"
+      <div style="width: 100%; margin-top: 1%; align-content: center; vertical-align: middle; display: flex;">
+        <img src="icons/file/htmlPreview.png"
           style="height: fit-content; width: fit-content; margin-left: 12%; align-self: center;">
         <div style="margin-left: 15%;">
           <p>Date Created: 1/06/2020</p>
@@ -184,14 +213,13 @@
           <p>Related Files: style.css, index.js</p>
           <div style="display: flex;">
             <p>Shared Users: </p>
-            <img class="users" src="user4.png" style="margin-left: 20px;">
-            <img class="users" src="user3.png">
+            <img class="users" src="icons/user/user4.png" style="margin-left: 20px;">
+            <img class="users" src="icons/user/user3.png">
           </div>
         </div>
 
 
-        <button class="pop-up-button detailsHeader"
-          style="margin-left: 10%; height: fit-content; background-color: rgb(199, 199, 199); align-self: center;"
+        <button class="pop-up-button w3-btn w3-blue detailsHeader share-btn"
           onclick="togglePopup()">Share</button>
       </div>
 
@@ -205,7 +233,7 @@
   <!-- Right sidebar -->
   <div id="right-section" class="w3-border-left w3-bar-block w3-padding-small">
     <h1 class="sidebar-title"><img class="small-icon" src="./icons/calendar/calendar.png" alt="calendar-icon"> MAY 2020</h1>
-    
+
     <div id="calendar" class="w3-ul">
       <div class="calendar-day">
         <li class="weekday">MONDAY <span>22</span></li>
