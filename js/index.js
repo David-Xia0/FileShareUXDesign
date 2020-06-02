@@ -13,18 +13,18 @@ function hide(event) {
   switch (event.text) {
     case "My Drive":
         if (driveIsHighlighted){
-          resetMiddleSection();
+          resetToDefaultMiddleSection();
         } else {
           $(".my-drive").css("display", "inline-block");
         }
       break;
     default:
-      resetMiddleSection();
+      resetToDefaultMiddleSection();
   }
 }
 
 /**Remove all highlighting and details pane popup, except for calendar highlighting.*/
-function resetMiddleSection(){
+function resetToDefaultMiddleSection(){
   $(".no-drive").css("display", "inline-block");
   $(".detailsContainer").hide();
   $(".file").removeClass("file-clicked");
@@ -44,6 +44,7 @@ var id = $(event).attr("id");
   } else {
     console.log("hi");
     $(".detailsContainer").hide();
+    $(".relatedFile").hide();
   }
 }
 
