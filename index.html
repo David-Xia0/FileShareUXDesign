@@ -99,9 +99,9 @@
 
     <div class="fileContiner">
       <div class="files">
-        <div class="file" onclick="displayIndexDetails()">
+        <div id="index-html" class="file" onclick="displayDetails(this)">
           <img class="fileIcon" src="icons/file/htmlFileIcon.png">
-          <p id="index-html" class="fileTitle">index.html</p>
+          <p class="fileTitle">index.html</p>
           <div style="width: 350px;"></div>
           <div style="width: 250px">
             <p class="fileProgress" style="background-color: rgb(43, 192, 75);">COMPLETED</p>
@@ -119,15 +119,15 @@
           </div>
 
           <div class="tooltip" style="margin-left: 257px; align-self: center; margin-right: 20px;">
-            <div class="relatedFile" style="background-color: white;"></div>
+            <div class="relatedFile" style="background-color: transparent;"></div>
             </div>
 
         </div>
         <hr>
 
-        <div class="file related">
+        <div id="style-css" class="file related" onclick="displayDetails(this)">
           <img class="fileIcon" src="icons/file/cssFileIcon.png">
-          <p id="style-css" class="fileTitle">style.css</p>
+          <p class="fileTitle">style.css</p>
           <div style="width: 350px;"></div>
           <div style="width: 250px;">
             <p class="fileProgress" style="background-color: rgb(70, 40, 201);">IN PROGRESS</p>
@@ -157,9 +157,9 @@
         <hr>
 
 
-        <div class="file related">
+        <div id="index-js" class="file related" onclick="displayDetails(this)">
           <img class="fileIcon" src="icons/file/cssFileIcon.png">
-          <p id="index-js" class="fileTitle">index.js</p>
+          <p class="fileTitle">index.js</p>
           <div style="width: 350px;"></div>
           <div style="width: 250px;">
             <p class="fileProgress" style="background-color: rgb(204, 22, 22);">URGENT</p>
@@ -183,9 +183,9 @@
 
         </div>
         <hr>
-        <div class="file">
+        <div id="assignment-brief" class="file" onclick="displayDetails(this)">
           <img class="fileIcon" src="icons/file/pdfFileIcon.png">
-          <p id="assignment-brief" class="fileTitle">Brief</p>
+          <p class="fileTitle">Brief</p>
           <div style="width: 350px;"></div>
           <div style="width: 250px;">
             <p class="fileProgress" style="background-color: rgb(70, 40, 201);">IN PROGRESS</p>
@@ -199,7 +199,7 @@
           <span class="tooltiptext">Tianren</span>
           </div>
           <div class="tooltip" style="margin-left: 257px; align-self: center; margin-right: 20px;">
-            <div class="relatedFile" style="background-color: white;">
+            <div class="relatedFile" style="background-color: transparent;">
             </div>
           </div>
         </div>
@@ -268,7 +268,13 @@
       </div>
       <div class="calendar-day">
         <li class="weekday">WEDNESDAY <span>24</span></li>
-        <li id="get-doc-done" class="task"><img class="xsmall-icon" src="./icons/calendar/two-people.svg" alt="collab"> Get doc done</li>
+        <li id="get-doc-done" class="task">
+          <div class="tooltip"> 
+            <img class="xsmall-icon" src="./icons/calendar/two-people.svg" alt="collab">
+            <span class="tooltiptext">303 Project 2</span>
+          </div>
+          Get doc done
+        </li>
         <li id="softeng-250" class="task">SOFTENG 250</li>
       </div>
       <div class="calendar-day">
@@ -276,7 +282,13 @@
       </div>
       <div class="calendar-day">
         <li class="weekday">FRIDAY <span>26</span></li>
-        <li id="hand-in-brief" class="task"><img class="xsmall-icon" src="./icons/calendar/two-people.svg" alt="collab"> Hand in brief</li>
+        <li id="hand-in-brief" class="task">
+          <div class="tooltip"> 
+            <img class="xsmall-icon" src="./icons/calendar/two-people.svg" alt="collab">
+            <span class="tooltiptext">HCI Assignment 3</span>
+          </div>
+          Hand in brief
+        </li>
       </div>
 
       <div id="change-week">

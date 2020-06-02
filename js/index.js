@@ -8,19 +8,27 @@ function hide(event) {
   } else {
     $(event).toggleClass("selected");
   }
+  
   $(".middle-section").css("display", "none");
   switch (event.text) {
     case "My Drive":
         if (driveIsHighlighted){
-          $(".no-drive").css("display", "inline-block");
+          resetToDefaultMiddleSection();
         } else {
           $(".my-drive").css("display", "inline-block");
         }
       break;
     default:
-      $(".no-drive").css("display", "inline-block");
-
+      resetToDefaultMiddleSection();
   }
+}
+
+/**Remove all highlighting and details pane popup, except for calendar highlighting.*/
+function resetToDefaultMiddleSection(){
+  $(".no-drive").css("display", "inline-block");
+  $(".detailsContainer").hide();
+  $(".file").removeClass("file-clicked");
+  $(".relatedFile").hide();
 }
 
 function successPopup() {
@@ -32,9 +40,17 @@ function togglePopup() {
   $(".pop-up").toggle();
 }
 
-function displayIndexDetails() {
-  $(".detailsContainer").toggle();
-  $(".relatedFile").toggle();
+function displayDetails(event) {
+var id = $(event).attr("id");
+
+  if (id === "index-html"){
+    $(".relatedFile").toggle();
+    $(".detailsContainer").toggle();
+  } else {
+    console.log("hi");
+    $(".detailsContainer").hide();
+    $(".relatedFile").hide();
+  }
 }
 
 $(".file").click(function() {
@@ -53,11 +69,11 @@ $(".task").click(function() {
   $(".task").removeClass("task-clicked");
   if (!taskIsHighlighted){
     $(this).toggleClass("task-clicked");
-    id = $(this).attr('id'); //id can now be used to highlight related files.
+    id = $(this).attr("id"); //id can now be used to highlight related files.
   }
 
   //Highlight appropriate related files in your drive.
-  $(".fileTitle").removeClass("calendar-related-file");
+  $(".file").removeClass("calendar-related-file");
   if (id === "softeng-111"){
     $("#index-html").toggleClass("calendar-related-file");
 

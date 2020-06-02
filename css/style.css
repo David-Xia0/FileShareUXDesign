@@ -191,7 +191,7 @@ height: 70%;
 
 /**Middle Files styling*/
 
-.calendar-related-file{
+.calendar-related-file .fileTitle{
   background-color: #FFD7AE;
   border-radius: 10px;
   animation: fading .1s;
