@@ -16,12 +16,38 @@
   <!-- Share Pop Up -->
   <div class="pop-up">
     <div class="pop-up-container">
-      <div class="close" onclick="togglePopup()">
-        <span class="close">&times;</span>
+      <div class="pop-top-bar w3-container w3-blue">
+        <h1>Share "index.html"</h1>
       </div>
-      <div class="pop-up-content">
-        <h2>Share index.html</h2>
-        <h3>share with: </h3>
+      <!-- <div class="close" onclick="togglePopup()">
+        <span class="close">&times;</span>
+      </div> -->
+      <div class="pop-up-content w3-container">
+        <p>
+          <label>Share to:</label>
+          <input list="share-options" class="w3-input" type="text" placeholder="Enter a User or a Team Drive"></p>
+          <datalist id="share-options">
+            <option value="David">
+            <option value="Jennifer">
+            <option value="Tianren">
+            <option value="303 Project 2">
+            <option value="Group HWK 4">
+            <option value="HCI Assignment 3">
+          </datalist>
+          <label>Tags</label>
+          <input list="tag-options" class="w3-input" type="text" placeholder="Enter Tags"></p>
+          <datalist id="tag-options">
+            <option value="COMPLETED">
+            <option value="DO NOT TOUCH">
+            <option value="IN PROGRESS">
+            <option value="URGENT">
+          </datalist>
+          <label>Due Date</label>
+          <input class="w3-input" type="text" placeholder="Enter a date: dd/mm/yyyy"></p>
+      </div>
+      <div class="pop-bottom w3-container">
+        <button class="w3-btn w3-blue" onclick="togglePopup()">Close</button>
+        <button class="w3-btn w3-blue">Done</button>
       </div>
     </div>
   </div>
@@ -49,6 +75,7 @@
     <br>
     <h3 class="w3-bar-item">SHARED DRIVES</h3>
     <a href="#" class="w3-bar-item w3-button drive" onclick="hide(this)">303 Project 2</a>
+    <a href="#" class="w3-bar-item w3-button drive" onclick="hide(this)">Group HWK 4</a>
     <a href="#" class="w3-bar-item w3-button drive" onclick="hide(this)">HCI Assignment 3</a>
   </div>
 
