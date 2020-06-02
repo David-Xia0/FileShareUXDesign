@@ -130,7 +130,7 @@ hr {
 .middle-section {
   display: inline-block;
   margin-left: 12%;
-  width: 73%;
+  width: 76%;
   height: 90%;
 }
 
@@ -141,7 +141,7 @@ hr {
   margin-top: 60px;
   position:fixed;
   right:0;
-  width:15%;
+  width:12%;
   z-index:1;
 }
 
@@ -322,7 +322,7 @@ hr {
   height: 40%;
   left: 13%;
   position: fixed;
-  width: 71%;
+  width: 74%;
   animation: fading .1s;
 }
 
