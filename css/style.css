@@ -97,6 +97,7 @@ hr {
   display: inline-block;
   height: 50px;
   width: 50px;
+
 }
 
 .medium-icon{
@@ -119,7 +120,7 @@ hr {
 
 .icon-text {
   display: inline-block;
-  margin-left: 1%
+  margin: 10px 1rem 0 1rem;
 }
 
 .sidebar-title{
@@ -139,6 +140,10 @@ hr {
 
 .round-btn{
   border-radius: 10%;
+}
+.bigger-btn {
+  height: 50px;
+  width: 100px;
 }
 
 #left-section {
