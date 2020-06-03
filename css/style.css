@@ -269,12 +269,10 @@ hr {
 
 .fileProgress{
   align-self: center;
-  align-self: center;
   border-radius: 5px;
   margin-left: 5px;
   padding-left: 3px;
   padding-right: 3px;
-  color: #f1f1f1;
   width: fit-content;
 }
 
