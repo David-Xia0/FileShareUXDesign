@@ -136,6 +136,7 @@ hr {
 
 .setting-icon:hover{
   opacity: 0.5;
+  cursor: pointer;
 }
 
 .round-btn{
