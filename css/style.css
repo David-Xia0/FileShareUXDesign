@@ -3,6 +3,8 @@
   100%{opacity:1}
 }
 
+/* General font and overall layout settings */
+
 html,body {
   font-family: 'Roboto', sans-serif;
   font-weight: 50;
@@ -25,7 +27,7 @@ hr {
   margin: 0;
 }
 
-/* pop-up */
+/* Share pop-up */
 .close {
   color: grey;
   float: right;
@@ -61,6 +63,7 @@ hr {
   height: 17%;
 }
 
+/* Success pop up */
 .success-container {
   background-color: #F9FAFA;
   display: none;
@@ -80,8 +83,9 @@ hr {
   height: 50%;
 }
 
-/* pop-up end */
+/* pop-ups end */
 
+/* Top nav bar */
 .right-align{
   float: right;
 }
@@ -154,11 +158,6 @@ hr {
   width: 80px;
 }
 
-#left-section {
-  display: inline-block;
-  width: 12%;
-  margin-top: 60px;
-}
 .search-bar {
   display: inline-block;;
   margin-left: 2%;
@@ -175,16 +174,13 @@ hr {
   height: 90%;
 }
 
-#right-section {
-  background-color:#F3F3F3;
+/* Left side bar */
+#left-section {
   display: inline-block;
-  height:100%;
+  width: 12%;
   margin-top: 60px;
-  position:fixed;
-  right:0;
-  width:12%;
-  z-index:1;
 }
+
 
 .drive{
   margin: 10px 10px 0 0;
@@ -434,4 +430,15 @@ hr {
 #today{
   background-color: #0D5E9D;
   color: #fff;
+}
+
+#right-section {
+  background-color:#F3F3F3;
+  display: inline-block;
+  height:100%;
+  margin-top: 60px;
+  position:fixed;
+  right:0;
+  width:12%;
+  z-index:1;
 }

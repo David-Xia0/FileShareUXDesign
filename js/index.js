@@ -1,14 +1,15 @@
+// This function toggles the dispaly (hide/shows) property of the middle section
 function hide(event) {
   var driveIsHighlighted = $(event).hasClass("selected");
 
   $(".drive").removeClass("selected");
-
+  // Highlight or remove highlighting of the selected drive
   if (driveIsHighlighted){
     $(event).removeClass("selected");
   } else {
     $(event).toggleClass("selected");
   }
-
+  // Toggle display of the middle section
   $(".middle-section").css("display", "none");
   switch (event.text) {
     case "My Drive":
@@ -30,17 +31,17 @@ function resetToDefaultMiddleSection(){
   $(".file").removeClass("file-clicked");
   $(".relatedFile").hide();
 }
-
+// Toggle the display setting of the sucess pop up
 function successPopup() {
   $(".pop-up-container").toggle();
   $(".success-container").toggle();
 }
-
+// Close the success pop up.
 function successClose() {
   successPopup();
   togglePopup();
 }
-
+// Toggle the share pop up.
 function togglePopup() {
   $(".pop-up").toggle();
 }
