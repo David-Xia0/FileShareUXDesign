@@ -111,6 +111,7 @@
   </div>
 
   <div class="my-drive middle-section hide">
+     <!--Continer Header-->
     <div class="w3-container">
       <h1>DRIVES <img class="small-icon" src="./icons/right-arrow.svg" alt="right-arrow"> My Drive</h1>
       <hr>
@@ -118,16 +119,18 @@
 
     <div class="fileContiner">
       <div class="files">
+
+         <!--file1-->
         <div id="index-html" class="file" onclick="displayDetails(this)">
+          <!--File Icon-->
           <img class="fileIcon" src="icons/file/htmlFileIcon.png">
           <p class="fileTitle">index.html</p>
           <div style="width: 350px;"></div>
+          <!--Progress Tag-->
           <div style="width: 250px">
             <p class="fileProgress" style="background-color: rgb(43, 192, 75);">COMPLETED</p>
           </div>
-
-
-
+          <!--Users-->
           <div class="tooltip">
             <img class="users" src="icons/user/share1.png" style="margin-left: 20px;">
             <span class="tooltiptext">HCI assignment 3</span>
@@ -141,35 +144,33 @@
 
           <span class="tooltiptext">Bob</span>
           </div>
-
           <div class="tooltip" style="margin-left: 220px; align-self: center; margin-right: 20px;">
             <div class="relatedFile" style="background-color: transparent;"></div>
             </div>
-
         </div>
         <hr>
 
+         <!--file2-->
         <div id="style-css" class="file related" onclick="displayDetails(this)">
+          <!--File Icon-->
           <img class="fileIcon" src="icons/file/cssFileIcon.png">
           <p class="fileTitle">style.css</p>
           <div style="width: 350px;"></div>
+          <!--Progress Tag-->
           <div style="width: 250px;">
             <p class="fileProgress" style="background-color: rgb(70, 40, 201);">IN PROGRESS</p>
           </div>
-
+           <!--Users-->
           <div class="tooltip">
           <img class="users " src="icons/user/user1.png" style="margin-left: 20px;">
           <span class="tooltiptext">David</span>
           </div>
-
           <div class="tooltip">
           <img class="users" src="icons/user/user4.png">
           <span class="tooltiptext">Tianren</span>
         </div>
           <div class="tooltip">
           <img class="users" src="icons/user/user3.png">
-
-
           <span class="tooltiptext">Bob</span>
         </div>
         <div class="tooltip" style="margin-left: 220px; align-self: center; margin-right: 20px;">
@@ -180,16 +181,17 @@
         </div>
         <hr>
 
-
+        <!--file 3-->
         <div id="index-js" class="file related" onclick="displayDetails(this)">
+          <!--File Icon-->
           <img class="fileIcon" src="icons/file/cssFileIcon.png">
           <p class="fileTitle">index.js</p>
           <div style="width: 350px;"></div>
+          <!--Progress Tag-->
           <div style="width: 250px;">
             <p class="fileProgress" style="background-color: rgb(204, 22, 22);">URGENT</p>
           </div>
-
-
+          <!--Users-->
           <div class="tooltip">
           <img class="users" src="icons/user/user1.png" style="margin-left: 20px;">
           <span class="tooltiptext">David</span>
@@ -203,17 +205,20 @@
             <span class="tooltiptext">Related index.html</span>
           </div>
           </div>
-
-
         </div>
         <hr>
+
+         <!--file4-->
         <div id="assignment-brief" class="file" onclick="displayDetails(this)">
+          <!--File Icon-->
           <img class="fileIcon" src="icons/file/pdfFileIcon.png">
           <p class="fileTitle">Brief</p>
           <div style="width: 350px;"></div>
+          <!--Progress Tag-->
           <div style="width: 250px;">
             <p class="fileProgress" style="background-color: rgb(70, 40, 201);">IN PROGRESS</p>
           </div>
+          <!--Users-->
           <div class="tooltip">
           <img class="users" src="icons/user/user1.png" style="margin-left: 20px;">
           <span class="tooltiptext">David</span>
@@ -229,10 +234,7 @@
         </div>
         <hr>
       </div>
-
-
     </div>
-
   </div>
 
 
@@ -244,6 +246,8 @@
 
 
     <div class="details">
+
+       <!--Details Header Strip-->
       <div style="width: 100%; height: 100px; align-content: center; vertical-align: middle; display: flex;">
         <img src="icons/file/htmlFileIcon.png" style="height: 80px; width: 60px; align-self: center;">
         <p class="detailsHeader">index.html</p>
@@ -251,14 +255,18 @@
         <p class="fileProgress" style="background-color: rgb(43, 192, 75);">COMPLETED</p>
         <p class="fileProgress" style="background-color: rgb(241, 12, 12);">DO NOT TOUCH</p>
       </div>
+       <!--Details contents-->
       <div style="width: 100%; margin-top: 1%; align-content: center; vertical-align: middle; display: flex;">
         <img src="icons/file/htmlPreview.png"
           style="height: fit-content; width: fit-content; margin-left: 12%; align-self: center;">
+           <!--misc details-->
         <div style="margin-left: 15%;">
           <p>Date Created: 1/06/2020</p>
           <p>Last Modified: 1/06/2020</p>
           <p>Line Count: 642</p>
           <p>Related Files: style.css, index.js</p>
+
+           <!--Display Users-->
           <div style="display: flex;">
             <p>Shared Users: </p>
             <img class="users" src="icons/user/user4.png" style="margin-left: 20px;">
@@ -266,7 +274,7 @@
           </div>
         </div>
 
-
+         <!--File Share button-->
         <button class="pop-up-button w3-btn w3-blue detailsHeader share-btn round-btn"
           onclick="togglePopup()">Share</button>
       </div>
