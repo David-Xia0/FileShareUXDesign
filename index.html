@@ -4,16 +4,20 @@
 <!--The HTML in this file adapted various classes of the w3.css file to give some of the aethestics of the webpage. We also
 used JQuery to satisfy some of the functionality the prototype required, mostly just pop-ups.
 
-Refer to our report for source information regarding all icons used for this prototype. Designs were inspired by the 
+Refer to our report for source information regarding all icons used for this prototype. Designs were inspired by the
 Assignment Base 3 that was provided by the SOFTENG 350 course, however this design was created from scratch.-->
 
 <head>
   <meta charset="utf-8">
   <title>Share Files</title>
   <link rel="icon" href="./icons/hdd-solid.svg">
+  <!-- Import custom w3 style sheets -->
   <link rel="stylesheet" href="./css/w3.css">
+  <!-- Import roboto fonts -->
   <link href="./css/roboto.css" rel="stylesheet">
+  <!-- Import custom style sheet -->
   <link rel="stylesheet" href="./css/style.css">
+  <!-- Import jQuery -->
   <script src="./js/jquery-3.5.1.min.js"></script>
 </head>
 
@@ -23,19 +27,25 @@ Assignment Base 3 that was provided by the SOFTENG 350 course, however this desi
     <!-- Success pop up  -->
     <div class="success-container">
       <h1 class="success-text">SUCCESS!</h1>
+      <!-- Success image tick -->
       <img class="tick-circle" src="./icons/check-circle-regular.svg" alt="">
       <br>
+      <!-- Close success pop up button -->
       <button class="w3-btn w3-blue round-btn bigger-btn" onclick="successClose()">Close</button>
     </div>
     <div class="pop-up-container">
+      <!-- Top bar of success pop up, Title of share and close cross -->
       <div class="pop-top-bar w3-container w3-blue">
         <h1>Share: <b>index.html</b> <img class="xsmall-icon setting-icon" src="./icons/cross.svg" alt="exit" onclick="togglePopup()"></h1>
       </div>
+      <!-- Body of success pop up -->
       <div class="pop-up-content w3-container">
         <p>
         <p>
+          <!-- Share to option -->
           <label>Share to*</label>
           <input list="share-options" class="w3-input" type="text" placeholder="Enter a User or a Team Drive">
+          <!-- Default data set/default options to select from -->
           <datalist id="share-options" class="options">
             <option value="David">
             <option value="Jennifer">
@@ -44,6 +54,7 @@ Assignment Base 3 that was provided by the SOFTENG 350 course, however this desi
             <option value="Group HWK 4">
             <option value="HCI Assignment 3">
           </datalist>
+        <!-- Share related files check box -->
         <div class="right-align">
           <input class="w3-check" type="checkbox" checked="checked">
           <label>Share related files?</label>
@@ -51,8 +62,10 @@ Assignment Base 3 that was provided by the SOFTENG 350 course, however this desi
         </p>
         <br>
         <p>
+          <!-- Tags option -->
           <label>Tags</label>
           <input list="tag-options" class="w3-input" type="text" placeholder="Enter Tags">
+          <!-- Default data set/default options to select from -->
           <datalist id="tag-options">
             <option value="COMPLETED">
             <option value="DO NOT TOUCH">
@@ -60,11 +73,13 @@ Assignment Base 3 that was provided by the SOFTENG 350 course, however this desi
             <option value="URGENT">
           </datalist>
         </p>
+        <!-- Due date option -->
         <p class="double-input">
           <label>Due Date</label>
           <input class="w3-input" type="text" placeholder="dd/mm/yyyy">
         </p>
         <p>
+          <!-- Tasks option -->
           <label>Task</label>
           <input list="task-options" class="w3-input" type="text" placeholder="Calendar Task">
           <datalist id="task-options">
@@ -73,6 +88,7 @@ Assignment Base 3 that was provided by the SOFTENG 350 course, however this desi
           </datalist>
         </p>
         </p>
+        <!-- Share button -->
         <div class="right-align w3-container">
           <button class="w3-btn w3-blue round-btn bigger-btn" onclick="successPopup()">Share</button>
         </div>
@@ -84,12 +100,14 @@ Assignment Base 3 that was provided by the SOFTENG 350 course, however this desi
   <div class="w3-bar w3-border top-bar">
     <img class="icon" src="./icons/hdd-solid.svg" alt="hdd-icon">
     <h3 class="icon-text">Share Files</h3>
+    <!-- Share bar and search button -->
     <form class="search-bar">
       <input type="text" placeholder="Search.." name="search">
       <button type="submit">
         <img src="./icons/search-solid.svg" alt="Search-icon" class="search-icon">
       </button>
     </form>
+    <!-- Help and option icons -->
     <img class="setting-icon" src="./icons/settingsCog.png" onmouseover="">
     <img class="setting-icon" src="./icons/question-circle-solid.svg" onmouseover="">
   </div>
@@ -285,7 +303,7 @@ Assignment Base 3 that was provided by the SOFTENG 350 course, however this desi
       <div class="calendar-day">
         <li class="weekday">MONDAY <span>22</span></li>
       </div>
-      
+
       <div class="calendar-day">
         <li id="today" class="weekday">TUESDAY <span>23</span></li> <!--The date that is "today": Tuesday-->
         <li id="softeng-111" class="task">SOFTENG 111</li>
