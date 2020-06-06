@@ -5,10 +5,14 @@
   <meta charset="utf-8">
   <title>Share Files</title>
   <link rel="icon" href="./icons/hdd-solid.svg">
+  <!-- Import custom w3 style sheets -->
   <link rel="stylesheet" href="./css/w3.css">
+  <!-- Import roboto fonts -->
   <link href="./css/roboto.css" rel="stylesheet">
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <!-- Import custom style sheet -->
   <link rel="stylesheet" href="./css/style.css">
+  <!-- Import jQuery -->
   <script src="./js/jquery-3.5.1.min.js"></script>
 </head>
 
@@ -18,15 +22,19 @@
     <!-- Success pop up  -->
     <div class="success-container">
       <h1 class="success-text">SUCCESS!</h1>
+      <!-- Success image tick -->
       <img class="tick-circle" src="./icons/check-circle-regular.svg" alt="">
       <br>
+      <!-- Close success pop up button -->
       <button class="w3-btn w3-blue round-btn bigger-btn" onclick="successClose()">Close</button>
     </div>
     <!-- Share pop up -->
     <div class="pop-up-container">
+      <!-- Top bar of success pop up, Title of share and close cross -->
       <div class="pop-top-bar w3-container w3-blue">
         <h1>Share: <b>index.html</b> <img class="xsmall-icon setting-icon" src="./icons/cross.svg" alt="exit" onclick="togglePopup()"></h1>
       </div>
+      <!-- Body of success pop up -->
       <div class="pop-up-content w3-container">
         <p>
         <p>
