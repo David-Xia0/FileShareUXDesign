@@ -1,4 +1,14 @@
 # SOFTENG350-A3: Group 10
+
+This project was for the purposes of designing the user interface for a file sharing web application similar to google drive and drop box. The main focus was on UX design.
+
+This project consisted of a domain familiarisation and user needs analysis. Then after the implementation of our first prototype, we performed usage testing with two candidate and formulised the results.
+
+All information can be found with the report.
+
+
+
+
 ![preview](image.png)
 
 
