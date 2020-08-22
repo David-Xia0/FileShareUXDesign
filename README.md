@@ -1,5 +1,5 @@
 # SOFTENG350-A3: Group 10
-![image.png]
+![preview](image.png)
 
 
 Open index.html in a browser that supports Javascript to start our prototype. Preferably Chrome.
