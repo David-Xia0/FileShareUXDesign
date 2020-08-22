@@ -6,6 +6,8 @@ This project consisted of a domain familiarisation and user needs analysis. Then
 
 All information can be found with the report.
 
+A demostration of the prototype can be found here: https://youtu.be/3k9kKf8CRaU
+
 
 
 
